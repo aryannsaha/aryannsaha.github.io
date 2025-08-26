@@ -18,15 +18,6 @@ module.exports = withMDX({
   images: {
     unoptimized: true,
   },
-  async redirects() {
-    return [
-      {
-        source: "/books/:slug*",
-        destination: "/reading/:slug*",
-        permanent: true,
-      },
-    ];
-  },
   // Append the default value with md extensions
   pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
 });

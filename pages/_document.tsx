@@ -28,6 +28,17 @@ export default function Document() {
         </Script>
         <style>
           {`
+            /* Global link styles - exclude navigation */
+            a:not(.chakra-link) {
+              color: #3182ce !important;
+              text-decoration: none !important;
+            }
+            a:not(.chakra-link):hover {
+              color: #805ad5 !important;
+              text-decoration: none !important;
+            }
+            
+            /* Landing page attribution styles */
             #landing-attribution {
               position: fixed !important;
               bottom: 18px !important;

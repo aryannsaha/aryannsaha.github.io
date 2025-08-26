@@ -21,7 +21,7 @@ interface WritingProps {
 const Writing: NextPageWithLayout<WritingProps> = ({ posts }) => {
   return (
     <>
-      <NextSeo title="Writing | Adam Majmudar" />
+      <NextSeo title="Writing" />
       <Box height="100vh" bg="white" />
     </>
   );

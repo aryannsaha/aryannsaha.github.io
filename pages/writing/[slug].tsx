@@ -54,7 +54,7 @@ Post.getLayout = (page) => (
         zIndex={5}
       >
         <VStack align="flex-start" spacing={3}>
-          {page.props.posts.map((post) => (
+          {page.props.posts.map((post: PostMetadata) => (
             <Stack key={post.title} width="100%" align="flex-start" spacing={1}>
               <Link
                 href={post.url}

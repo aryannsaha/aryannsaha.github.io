@@ -13,7 +13,6 @@ const withMDX = require("@next/mdx")({
   },
 });
 module.exports = withMDX({
-  output: 'export',
   trailingSlash: true,
   images: {
     unoptimized: true,

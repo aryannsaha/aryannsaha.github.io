@@ -29,6 +29,7 @@ export interface Post {
   url: string;
   external: boolean;
   source: string;
+  category?: "essays" | "more";
 }
 
 export function getAllPostData(): Post[] {

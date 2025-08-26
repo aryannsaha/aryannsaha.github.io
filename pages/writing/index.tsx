@@ -43,7 +43,27 @@ Writing.getLayout = (page) => (
         zIndex={5}
       >
         <VStack align="flex-start" spacing={3}>
-          {page.props.posts.map((post: Post) => (
+          <Heading size="sm" color="gray.700">Essays</Heading>
+          {page.props.posts
+            .filter((post: Post) => post.category === "essays" || !post.category)
+            .map((post: Post) => (
+            <Stack key={post.title} width="100%" align="flex-start" spacing={1}>
+              <Link
+                href={post.url}
+                target={post.external ? "_blank" : "_self"}
+                color="blue.600"
+              >
+                <Text fontSize="sm">{post.title}</Text>
+              </Link>
+              <Text fontSize="xs" color="gray.500">
+                {post.date}
+              </Text>
+            </Stack>
+          ))}
+          <Heading size="sm" color="gray.700" mt={4}>More</Heading>
+          {page.props.posts
+            .filter((post: Post) => post.category === "more")
+            .map((post: Post) => (
             <Stack key={post.title} width="100%" align="flex-start" spacing={1}>
               <Link
                 href={post.url}

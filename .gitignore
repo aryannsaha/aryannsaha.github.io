@@ -2,6 +2,7 @@
 **/index.json
 !content/deep-dives/index.json
 !content/books/index.json
+!content/writing/index.json
 
 # dependencies
 /node_modules

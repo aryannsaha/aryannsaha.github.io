@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Interesting Papers and Projects",
+    "description": "Miscellaneous thoughts and observations",
+    "date": "August, 2025",
+    "category": "more",
+    "url": "/writing/example-essay",
+    "external": false
+  },
+  {
+    "title": "Economic Laws of R&D | How Tesla and Germany Built Success in Cleantech",
+    "description": "An brief exploration into R&D laws for EVs, Solar, and more.",
+    "date": "December 31, 2021",
+    "url": "https://medium.com/@aryannsaha/economic-laws-of-r-d-how-tesla-and-germany-built-success-in-cleantech-3777d359c887",
+    "category": "essays",
+    "external": true
+  }
+]

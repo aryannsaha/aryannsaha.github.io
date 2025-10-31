@@ -1,0 +1,24 @@
+[
+  {
+    "title": "The Three Body Problem",
+    "author": "Ken Liu",
+    "date": 2024,
+    "rating": 7,
+    "coverImage": "/books/ThreeBodyProblem.jpg",
+    "spineColor": "#f0f0f0",
+    "textColor": "#333",
+    "slug": "/reading",
+    "summary": "/*@jsxRuntime automatic @jsxImportSource react*/\nconst {jsx: _jsx} = arguments[0];\nconst {useMDXComponents: _provideComponents} = arguments[0];\nfunction _createMdxContent(props) {\n  const _components = Object.assign({\n    p: \"p\"\n  }, _provideComponents(), props.components);\n  return _jsx(_components.p, {\n    children: \"Captivating science fiction novel centered around the Chinese Cultural Revolution.\\nAnother piece of work that wowed me in the complexity of ideas, but also in the\\nintroduction of big, existent\"\n  });\n}\nfunction MDXContent(props = {}) {\n  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);\n  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {\n    children: _jsx(_createMdxContent, props)\n  })) : _createMdxContent(props);\n}\nreturn {\n  default: MDXContent\n};\n"
+  },
+  {
+    "title": "Flowers for Algernon",
+    "author": "Daniel Keyes",
+    "date": 2023,
+    "rating": 9,
+    "coverImage": "/books/FlowersForAlgernon.jpg",
+    "spineColor": "#f0f0f0",
+    "textColor": "#333",
+    "slug": "/reading",
+    "summary": "/*@jsxRuntime automatic @jsxImportSource react*/\nconst {jsx: _jsx} = arguments[0];\nconst {useMDXComponents: _provideComponents} = arguments[0];\nfunction _createMdxContent(props) {\n  const _components = Object.assign({\n    p: \"p\"\n  }, _provideComponents(), props.components);\n  return _jsx(_components.p, {\n    children: \"Keyes writes a beautiful story about Charlie Gordon, a middle-aged man with intellectual disabilities who undergoes a life-changing\\nand life-altering surgery that increases his intelligence. Keyes does a wonderful job executing the art of presenting intelligence, alluring\\nthe emotional intelligence in hand with the analytical. The story exposes the bounds to the value of intellectual intelligence, and provides a touching and thought-provoking\\nquick read.\"\n  });\n}\nfunction MDXContent(props = {}) {\n  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);\n  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {\n    children: _jsx(_createMdxContent, props)\n  })) : _createMdxContent(props);\n}\nreturn {\n  default: MDXContent\n};\n"
+  }
+]

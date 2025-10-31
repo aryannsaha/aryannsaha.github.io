@@ -1,6 +1,7 @@
 # metadata
 **/index.json
 !content/deep-dives/index.json
+!content/books/index.json
 
 # dependencies
 /node_modules

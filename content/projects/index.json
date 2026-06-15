@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Predicting the Thermodynamic Limits of Metal–Organic Framework Metastability",
+    "titleUrl": "https://pubs.acs.org/doi/full/10.1021/jacs.5c20253",
+    "authors": ["Blake Dallmann", "Aryan Saha", "Andrew S. Rosen"],
+    "venue": "Journal of the American Chemical Society, 2026",
+    "description": "We use density functional theory to compute the formation energy and construct convex hull phase diagrams for 20,000+ MOFs and coordination polymers, publishing novel analysis of metastability and synthesizeability, and benchmarking Generative-AI models and machine-learned interatomic potentials.",
+    "image": "projects/jacs_image.png",
+    "links": [
+      { "label": "PDF", "href": "https://pubs.acs.org/doi/full/10.1021/jacs.5c20253" }
+    ]
+  },
+  {
+    "title": "From Graphs to Transformers: A Review on Modern Architectures and Geometric Priors for Atomistic Machine Learning",
+    "titleUrl": "/pdfs/gnn_transformer_draft.pdf",
+    "authors": ["Aryan Saha"],
+    "venue": "Draft",
+    "description": "A derivation of Transformer architectures starting from Geometric Deep Learning principles, surveying modern GNN designs and geometric priors for 3D atomic systems.",
+    "image": "projects/images-1.png",
+    "links": [
+      { "label": "PDF", "href": "/pdfs/gnn_transformer_draft.pdf" }
+    ]
+  }
+]

@@ -14,5 +14,13 @@
     "url": "https://medium.com/@aryannsaha/economic-laws-of-r-d-how-tesla-and-germany-built-success-in-cleantech-3777d359c887",
     "category": "essays",
     "external": true
+  },
+  {
+    "title": "From Graphs to Transformers, a Review on Modern Architectures and Geometric Priors for Atomistic Machine Learning",
+    "description": "Derivation of Transformers starting with Geometric Deep Learning",
+    "date": "December 31, 2021",
+    "url": "/pdfs/gnn_transformer_draft.pdf",
+    "category": "essays",
+    "external": true
   }
 ]

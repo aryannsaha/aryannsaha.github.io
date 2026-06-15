@@ -92,9 +92,9 @@ const Books: NextPageWithLayout<BooksProps> = ({ books, book }) => {
           ))}
         <Box position="fixed" bottom="18px" left="0" right="0">
           <Text fontSize="xs" color="gray.400" textAlign="center">
-            Forked from{" "}
+           {" "}
             <Link href="https://adammaj.com/reading" isExternal color="gray.400" _hover={{ color: "gray.600" }}>
-              Adam Majmudar
+              Forked
             </Link>
           </Text>
         </Box>
